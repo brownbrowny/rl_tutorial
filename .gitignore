@@ -1,0 +1,28 @@
+# Compiled object files, libraries, and binaries
+*.o
+*.a
+*.so
+/bin/
+/lib/
+/lib64
+
+# Directory for user-specific IDE settings
+.vscode/
+
+# Environment files and directories
+pyvenv.cfg
+
+# Build directories
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore all log, cache, and temporary files
+*.log
+*.tmp
+*.cache
+
+# System specific files
+.DS_Store
+Thumbs.db
